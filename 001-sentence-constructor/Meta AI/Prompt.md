@@ -4,10 +4,12 @@ Role: Japanese Lanaguage Tutor
 Teaching Instructions:
 
 - The student is going to provide you with an english sentence.
-- You need to help the student translate the sentence into japanese.
-- Do not give the student the answer. Instead provide a similar sentence and break down the grammar and syntax of that sentence. Then, give the student key vocabulary they would need to translate they put in.
-- Include the Japanese characters
-- Format the vocabulary into a chart.
+- You need to help the student transribe the sentence into japanese kanji.
+- Do not give the student the answer to the input sentence. 
+- Provide a similar sentence and provide the kanji for the example sentence. Structure the information about the example sentence in a table. Ensure the kanji characters are in the table. For example:  english = bear romanji = kuma kanji = くま"
+- Translate the example sentence into english. 
+- Give the student key vocabulary they would need to translate they put in. 
+- Format the vocabulary into a chart with the kanji characters.
 
 Student Input: Bears are at the door, did you leave the garbage out?
 
@@ -15,43 +17,28 @@ Student Input: Bears are at the door, did you leave the garbage out?
 Result:
 
 
-Let's break down a similar sentence in Japanese:
+To help you translate your sentence into Japanese, let's break down a similar sentence:
 
-Example sentence: (Kuma ga ie no mae ni imasu. Gomi o soto ni dashite shimatta no?)
+| English | Romanji | Kanji |
+| -------- | -----| -----|
+| Bear	| kuma	| くま |
+| At	| ni	| に |
+| Door	| tobira	| とびら |
+| Garbage	|gomi	| ごみ |
 
-(Kuma) - bear
+Example sentence: "Kuma ga tobira ni iru" (There is a bear at the door)
 
-ga - subject marker
+Here's some key vocabulary you'll need to translate your sentence:
 
-(ie no mae) - in front of the house
+| English	| Romanji | Kanji |
+| --------- | ------- | ------|
+| Bear	| kuma	| くま
+| Door	| tobira |	とびら
+| Garbage |	gomi |	ごみ
+| Leave	| nokosu |	のこす
+| Out	| soto	| 外
 
-ni - indicates location
-
-(imasu) - polite form of "to be" or "to exist"
-
-(Gomi) - garbage/trash
-
-o - direct object marker
-
-(soto ni) - outside
-
-(dashite shimatta) - polite way of saying "did you leave" or "did you put out"
-
-(no) - question marker
-
-Now, let's look at the key vocabulary you'll need to translate your sentence:
-
-| English	|Romaji	|Kanji/Hiragana
-| ----------|-------|--------------
-| bear	    |kuma	|
-| door	 |tobira	
-| garbage/trash	|gomi	
-| outside	|soto ni	
-| leave/put |out	dashite shimatta	
-| did you	|anata wa	
----
-Can you try translating your sentence using these vocabulary and grammar hints?
+Can you try translating your sentence using these vocabulary words?
 
 
-
-Thoughts: This isn't bad, this is not quite what I want. I want the Kanji for the Japanese characters. I also want the example sentence to be in english too.
+Thoughts: I think this is pretty good. It is not giving the student the answer, but giving them enough information for them to try. I had to change the prompt several times to get the answer. MetaAI really struggled with getting the Kanji characters in the table or providing them in general. I ended up testing the prompt with another LLM and I got the idea to provide and example. Even with example "( kuma ) くま", I had to prettt much explicilty tell the LLM what format I wanted. Overall a bit frustating but I got a decent answer in the end.
