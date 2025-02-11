@@ -3,7 +3,6 @@
 ## Purpose of this Exercise 
 To understand the risks, complications, and explore the potential for adding an AI-driven sentence constructor to our current website offerings. We are currently serving **1,000 students worldwide**, teaching them **Japanese**. This exploration aims to determine if adding this feature would be **feasible and valuable**.
 
----
 
 ## Requirements 📋
 
@@ -17,7 +16,7 @@ To understand the risks, complications, and explore the potential for adding an 
 - It should act as a **tutor**, providing **tips and hints** to guide students toward the correct translation.
 - The tutor should give **examples in Kanji and English** to support student comprehension.
 
----
+
 
 ## Risks & Mitigation Strategies ⚠️
 
@@ -40,7 +39,7 @@ To understand the risks, complications, and explore the potential for adding an 
     - Limits on how many flags a student can submit in a given time frame to prevent misuse.
   - Store flagged wrong answers in a **cache** to improve model learning and avoid repeated mistakes.
 
----
+
 
 ## Next Steps 
 - Evaluate the feasibility of **hosting our own model**.
@@ -48,4 +47,3 @@ To understand the risks, complications, and explore the potential for adding an 
 - Develop a **prototype** and conduct trials with a subset of students.
 
 ---
-

@@ -1,0 +1,21 @@
+word_id,group_id
+1,1, el gato belongs to Animals
+2,1, el perro belongs to Animals
+3,1, el pajaro belongs to Animals
+4,1, el pez belongs to Animals
+5,1, el caballo belongs to Animals
+6,1, la vaca belongs to Animals
+7,1, el cerdo belongs to Animals
+8,1, la oveja belongs to Animals
+9,1, el pollo belongs to Animals
+10,1, el conejo belongs to Animals
+11,2, la casa belongs to Locations
+12,2, el parque belongs to Locations
+13,2, la escuela belongs to Locations
+14,2, el hospital belongs to Locations
+15,2, la tienda belongs to Locations
+16,2, el restaurante belongs to Locations
+17,2, la playa belongs to Locations
+18,2, el cine belongs to Locations
+19,2, la montana belongs to Locations
+20,2, el rio belongs to Locations
