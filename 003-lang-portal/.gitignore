@@ -1,6 +1,7 @@
 #Virtual Environment
-venv/
+\venv
 .env
+
 
 # Compiled Python files
 __pycache__/
