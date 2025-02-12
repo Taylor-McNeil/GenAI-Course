@@ -1,1 +1,9 @@
 helpfulCommands.txt
+
+venv/
+node_modules/
+dist/
+.vite/
+.vscode/
+.env
+.DS_Store
