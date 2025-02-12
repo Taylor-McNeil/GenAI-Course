@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, JSON, ForeignKey, DateTime, Boolean
 from sqlalchemy.orm import relationship
-from backend.core.database import Base
+from core.database import Base
 from datetime import datetime
 
 # Table: words (Vocabulary Table)

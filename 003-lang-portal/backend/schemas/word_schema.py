@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import Dict, Optional
 
 #Base Scheme (Shared fields)
@@ -11,6 +11,4 @@ class WordCreate(WordBase):
 
 class WordResponse(WordBase):
     id: int #We are sending the id back to the user and the rest of the information, so we cannot use pass here
-
-class Config:
-    orm_mode = True
+    model_config = ConfigDict(from_attributes=True)  # ✅ Needed for ORM conversion
