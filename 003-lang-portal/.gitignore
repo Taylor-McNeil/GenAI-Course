@@ -1,9 +1,29 @@
+#Virtual Environment
+venv/
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+logs/
+*.log
+
+# Cache and temp files
+*.swp
+*.swo
+*.bak
+*.tmp
+
 helpfulCommands.txt
 
-venv/
+# Frontend files
 node_modules/
 dist/
 .vite/
 .vscode/
-.env
+
 .DS_Store
